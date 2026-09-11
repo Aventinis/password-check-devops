@@ -9,3 +9,4 @@ def test_password_checker():
     assert is_valid_password("12345678") == False
     assert is_valid_password("!@#$%^&*()") == False
     assert is_valid_password("ValidPass1!") == True
+    
